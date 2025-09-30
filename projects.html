@@ -1,0 +1,60 @@
+<!-- projects.html --> 
+ <!DOCTYPE html> 
+ <html lang="en"> 
+    <head> 
+        <meta charset="UTF-8" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Projects - My Portfolio</title> 
+        <link rel="stylesheet" href="style.css"> 
+        <script src="script.js" defer></script> 
+    </head> 
+    <body> 
+        <header> 
+            <div class="logo">MyPortfolio</div> 
+            <nav id="navbar"> 
+                <ul> 
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li> 
+                    <li>
+                        <a href="about.html">About Me</a>
+                    </li> 
+                    <li>
+                        <a href="projects.html" class="active">Projects</a>
+                    </li> 
+                    <li>
+                        <a href="contact.html">Contacts</a>
+                    </li> 
+                </ul> 
+            </nav> 
+            <div class="hamburger" onclick="toggleMenu()">☰</div> 
+        </header> 
+        <section class="section projects"> 
+            <h2>Projects</h2> 
+            <div class="project-cards"> 
+                <div class="card" onclick="projectClick('Project 1')"> 
+                    <h3>Project 1</h3> 
+                    <p><b>KRUFOLIO: </b> This project is developed using html, css and js. Here I learnt few basic concepts
+                        in webdevelopment. This project fasinates me to work more in the developing area.
+                    </p> 
+                </div> 
+                <div class="card" onclick="projectClick('Project 2')"> 
+                    <h3>Project 2</h3> 
+                    <p><b>DESIGNING: </b>I've dedsigned various posters, invitations and short videos 
+                        using tools like MS Word, Canva, etc. I developed interest in designing and developing 
+                        colorful and attractive posters.</p> 
+                </div> 
+                <div class="card" onclick="projectClick('Project 3')"> 
+                    <h3>Project 3</h3>
+                     <p><b>WORKING MODEL OF EDDY CURRENTS:</b> This project was designed by me in my 12th grade,
+                    which was all about generating opposing magnetic fields. This helped me understand the principles
+                    of EM Induction.</p> 
+                    </div> 
+                </div> 
+            </section> 
+            <footer> 
+                <p>📧 kruthikasubramanian@gmail.com | 📞 +91-8778792959</p> 
+                <p>© 2025 KruthikaSubramanian. All rights reserved.</p> 
+            </footer> 
+        </body> 
+        </html>

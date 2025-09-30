@@ -1,0 +1,47 @@
+<!-- index.html (HOME) --> 
+ <!DOCTYPE html> 
+ <html lang="en"> 
+    <head> 
+        <meta charset="UTF-8" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Home - My Portfolio</title> 
+        <link rel="stylesheet" href="style.css"> 
+        <script src="script.js" defer></script> 
+    </head> 
+    <body> 
+        <!-- HEADER --> 
+         <header> 
+            <div class="logo">MyPortfolio</div> 
+            <nav id="navbar"> 
+                <ul> 
+                    <li>
+                        <a href="index.html" class="active">Home</a>
+                    </li> 
+                    <li>
+                        <a href="about.html">About Me</a>
+                    </li> 
+                    <li>
+                        <a href="projects.html">Projects</a>
+                    </li> 
+                    <li>
+                        <a href="contact.html">Contacts</a>
+                    </li> 
+                </ul> 
+            </nav> 
+            <div class="hamburger" onclick="toggleMenu()">☰</div> 
+        </header> 
+        <!-- HOME --> 
+         <section class="section home"> 
+            <div class="home-content"> 
+                <h1>Welcome to <span class="highlight">KruFolio</span></h1> 
+                <h3>A portfolio website</h3> 
+                <button onclick="location.href='about.html'">Explore</button> 
+            </div> 
+        </section> 
+        <!-- FOOTER --> 
+         <footer> 
+            <p>📧 kruthikasubramanian@gmail.com | 📞 +91-8778792959</p> 
+            <p>© 2025 KruthikaSubramanian. All rights reserved.</p> 
+        </footer> 
+    </body> 
+    </html>
